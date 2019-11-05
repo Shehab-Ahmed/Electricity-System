@@ -1,0 +1,780 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.all-cho {
+	display: none
+}
+.cusetem-file {
+    margin: 40px auto;
+    position: relative;
+    top: -44px;
+    background: #d9534f;
+    max-width: 400px;
+    height: 34px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    width: 300px;
+    margin-right: 150px;
+    display: inline-block;
+}
+.cusetem-file:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+.cusetem-file input[type="file"] {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    height: 34px;
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+    width: 300px;
+}
+/* Start Class Bootstrap */
+.panel-title {
+    font-size: 30px;
+
+}
+.panel-title a {
+    text-decoration: none
+}
+.panel-body input, .panel-body select {
+    width: 300px;
+    margin-right: 150px;
+    font-size: 20px;
+    display: inline-block
+}
+.panel-body select {
+    margin-right: 136px
+}
+.panel-body textarea {
+    min-width: 757px;
+    max-width: 757px;
+    height: 105px;
+    margin-right: 150px;
+    font-size: 20px;
+    display: inline-block 
+}
+.panel-body .from-in {
+    display: inline-block
+}
+.panel-body label {
+    position: absolute;
+    top: 4px;
+    right: 40px;
+    font-size: 18px;
+}
+.panel-body .name-mht-lab {
+    position: absolute;
+    top: -36px;
+}
+.name-mht {
+    position: relative;
+    top: -42px;
+}
+
+/* End Class Bootstrap */
+body {
+    padding: 0;
+    margin: 0;
+    background: #eee
+}
+.submit {
+    width: 100px;
+    margin-right: 200px
+}
+.grop-ends {
+    margin: auto;
+    font-size: 22px;
+    padding: 5px 15px;
+    position: fixed;
+    font-weight: bold;
+    right: 0;
+    border-radius: 5px;
+    color: #333;
+    background: #ccc;
+    line-height: 1em
+}
+.login {
+    position: relative
+}
+
+.nice-mass {
+    background: #fff;
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    border-right: 5px solid #21b721;
+}
+.margintop {
+    margin-top: 140px;    
+}
+.all-btns {
+    margin: 50px;
+}
+.form-enter {
+    margin: 200px auto;
+    background: #fff;
+    border-radius: 5px;
+    width: 550px;
+    position: relative;
+    padding: 10px;
+    
+    
+}
+.click-detilse {
+    font-size: 20px;
+}
+.from-in {
+    margin-bottom: 20px;
+    position: relative
+}
+.enter-re {
+    position: absolute; 
+    left: 15px;
+    bottom: 8px;   
+}
+.enter-re a {
+    color: #000
+}
+.form-enter input {
+    width: 300px;
+    margin: 10px auto;
+    font-size: 18px;
+    position: relative;
+}
+.form-enter label {
+    position: absolute;
+    top: 4px;
+    right: 40px
+}
+.search {
+    margin: auto;
+    width: 250px;
+    margin-top: -35px;
+    position: relative;
+    font-size: 16px;
+    height: 35px;
+    border-radius: 0px 5px 5px 0px;  
+}
+.search .btn {
+    position: absolute;
+    font-weight: bold;
+    position: absolute;
+    left: -109px;
+    top: 0;
+    font-size: 16px;
+    padding: 5px 18px;
+    height: 35px;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+
+}
+.rowcount {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    font-size: 25px;
+    background: #333;
+    color: #fff;
+    padding: 5px 22px;
+    border-radius: 10px 0px 0px 10px
+}
+.btn-left {
+    float: left;
+    margin-top: -34px;
+    font-size: 16px;
+}
+.add-mem .rtl-right{
+    float: right;
+    margin: 20px 0;
+    position: relative
+}
+.add-mem .stlab {
+    font-size: 20px;
+    position: relative;
+    
+}
+.add-mem .stlab label {
+    position: absolute;
+    left:0;
+    width: 100px
+}
+
+.add-mem input {
+    font-size: 20px;
+    padding: 5px;
+    height: 40px
+}
+.login input {
+    font-size: 20px;
+    padding: 5px;
+    width: 300px;
+    margin: 20px auto;
+    background: #ececec
+}
+.login .img-login {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px
+}
+.login img {
+    width: 200px;
+    margin: 0px auto;
+}
+.navbar-nav a {
+    font-size: 20px;
+    color: #333
+}
+.navbar-nav a:hover {
+    color: #333
+}
+.data-members table {
+    margin: 0 auto 50px;
+    background: #fff
+}
+ tr{
+    text-align: center;
+}
+.data-members td {
+     border: 2px solid #ddd;
+     padding : 5px;
+     font-size: 22px;
+     text-align: center;
+     min-width: 200px
+
+ }
+ .data-members td a {
+     cursor: pointer;
+     font-weight: bold
+ }
+ .data-members td a:hover {
+    text-decoration: none;
+    color: #555
+ }
+ .data-members tr:first-child {
+    background: #333;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+/* Class Phoateer */
+.box-tables .pho {
+    border: 1px solid #333;
+    font-size: 17px;
+    margin-top: 20px;
+    padding: 5px;
+    background: #fff;
+    width: 700px
+}
+.box-tables .pho .data-top span{
+    padding: 3px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.box-tables .pho img {
+    width: 120px;
+    float: left;
+    clear: both;
+    margin-top: -52px;
+    margin-left: 10px;
+}
+.detelse-mems td, .detelse-mems tr {
+    min-width: auto;
+    font-size: 22px;
+    padding: 1px 12px;
+    border: 2px solid #ddd !important;
+    width: auto 
+}
+.detelse-mems tr:first-child {
+    font-weight: bold
+}
+.type-shr {
+    padding: 4px;
+    font-size: 20px
+}
+
+ .pho {
+    background: #fff;
+    min-width: 680px;
+    max-width: 710px;
+    position: relative;
+    padding: 0px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin: 30px
+}
+ .pho .offce {
+    position: absolute;
+    top: 84px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #337ab7;
+    left: 4px;
+}
+ .pho .pho-header .num{
+    font-size: 16px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+ .pho .pho-header h2 {
+    margin-top: 2px
+}
+ .pho .pho-header hr {
+    width: 50%;
+    border-top: 1px solid #000;
+    margin: 0 auto
+}
+ .pho .pho-header .img-pho {
+    width: 110px;
+    float: left;
+    clear: both;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-align: center
+}
+ .pho .pho-header span.phon {
+    position: absolute;
+    bottom: 12px;
+    left: 8px;
+    font-weight: bold;
+}
+
+ .pho .data-mem p{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 100;
+    margin-right: 30px;
+    margin-top: 2px;
+    margin-bottom: 0;
+    width: 260px
+}
+ .pho .mr-non {
+    margin-top: 0
+}
+.table-pho td {
+    border: 1px solid #000;
+    border-right: 0;
+    padding: 3px;
+    font-weight: 550;
+    width: 11%;
+    font-size: 16px;
+}
+td, th {
+    padding: 0;
+
+}
+.table-pho td:last-child {
+    border-left: 0;
+    
+}
+.header-photo {
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.header-photo .title-photo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.footerphoto {
+    margin: 5px 40px 13px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.footerphoto span {
+    color: #dd0000;
+    font-weight: 900
+}
+.btns-phots .btn-pho {
+    font-size: 20px;
+    margin-top: 70px
+}
+.input-date {
+    text-align: center
+}
+.input-date input {
+    width: 300px;
+    margin: 20px  auto 0;
+    font-size: 20px;
+}
+.data-bills table {
+    margin: 0  auto
+}
+.data-bills tr {
+    background: #fff
+}
+.data-bills tr:first-child {
+    background: #333;
+    color: #fff
+}
+
+.data-bills td{
+    border: 2px solid #ddd;
+    padding: 5px 8px;
+    font-size: 22px;
+    text-align: center;
+
+}
+.detelse-form td {
+    min-width: 150px
+}
+
+
+.items .box-item {
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 9px #333;
+    margin: 10px auto;
+    color: #777
+} 
+
+
+.margin-top {
+    margin-top: -75px
+}
+.sort {
+    font-size: 20px;
+    display: inline;
+    margin-top: -29px
+}
+.sort .color {
+    color: #dd0000;
+}
+.sort a {
+    text-decoration: none
+}
+select {
+    -webkit-appearance: none;
+}
+.btn-print {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 9999
+}
+.btn-print .btn-pri button {
+    font-size: 18px; 
+}
+.data-bills a {
+    cursor: pointer;
+    font-weight: bold;
+}
+.data-bills a:hover {
+    text-decoration: none
+}
+
+.prr {
+    display: none;
+}
+.print-onlay {
+    display: none
+}
+
+
+.box-group {
+    width: 300px;
+    padding: 2px 10px;
+    font-size: 18px;
+    margin-bottom: 0px;
+    border-radius: 3px;
+    border-right: 5px solid #080;
+    
+}
+
+.show-detilse .ch-1-detilse p {
+    padding: 5px;
+    font-size: 22px;
+    background: #fff;
+    border-radius: 3px
+}
+.bill-group .bill {
+    border: 1px solid #000;
+    height: 500px
+}
+.bill-group .bill table {
+    text-align: center;
+    margin:0 auto;
+}
+.bill-group .bill p {
+    font-size: 20px;
+    min-width: 280px;
+    display: inline-block;
+    text-align: center
+}
+.bill-group .bill table td {
+    font-size: 18px;
+    min-width: 100px;
+}
+
+/* Start Data Dashbord */
+.data-home .data {
+    width: 200px;
+    background: #fff;
+    border-right: 5px solid #dd0000;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-shadow: 1px 1px 9px #333
+}
+.data-home .data p {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.table-user table {
+    margin: auto
+}
+.table-user table tr:first-child {
+    background: #ddd
+}
+.table-user table td {
+    border: 1px solid #aaa;
+    padding: 3px 12px;
+    font-size: 16px
+}
+.table-user table a {
+    font-weight: bold;
+    text-decoration: none
+}
+
+
+/* Start Choosing Page */
+.choosing .choosing-members p {
+    width: 300px;
+    color: #000;
+    font-size: 25px;
+    border: 2px solid #dddd;
+    text-align: center;
+    padding: 5px;
+}
+.choosing .choosing-members a {
+    text-decoration: none
+}
+.choosing .choosing-members:hover p {
+    color: #888;
+}
+
+.choosing-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    
+}
+.choosing-table table {
+    background: #fff;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.choosing-table tr:first-child {
+    background: #ddd;
+}
+
+/* Start New Bill */
+* {
+    box-sizing: border-box;
+  }
+  .bill-full {
+    margin: 7px 20px 7px 20px;
+    border: 2px solid #999;
+    padding: 12px;
+    display: none;
+    background: #fff;    
+    position: relative;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-align: right
+  }
+  .clearfix {
+    clear: both;
+  }
+  .bill-back img{
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    width: 540px;
+    left: 26%;
+    opacity: 0.2;
+    z-index: 9;
+    /* width: 350px; */
+    margin: auto;
+    display: block;
+  }
+  .bill-full .footer-bill .img-footer {
+    width: 150px;
+    height: 150;
+    margin: auto;
+    position: relative;
+    border-radius: 50%
+  }
+  .border {
+    
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border: 3px solid #0f71b8;
+    border-radius: 59%;
+    left: 28px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-66deg);
+    top: -9px;
+  }
+  .footer-bill .name-com {
+    color: #0f71b8;
+    font-size: 20px;
+    margin: 0;
+  
+  }
+  .footer-bill p {
+    color: #333;
+    margin: 0;
+  }
+  @media print {
+    .footer-bill .name-com {
+    color: #0f71b8 !important;
+    margin: 0
+  }
+  }
+  .data-bill {
+    font-size: 18px;
+    position: absolute;
+    top: 50px;
+    right: 20px; 
+  }
+  .data-left {
+    font-size: 18px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+  .data-member {
+    text-align: right;
+    font-size: 20px;
+    text-align: center 
+    
+  }
+  .data-member .name {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 50px;
+    padding-right:10p;
+    text-align: center
+  }
+  
+  .table-bill table {
+    text-align: center;
+    margin-top: 10px;
+    
+  }
+  .table-bill table td {
+    border: 2px dashed #999;
+    width: 15%;
+    padding: 2px;
+    font-size: 18px;
+    direction: rtl;
+  }
+  .title-bill h4 {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  .title-bill {
+    margin-right: 30px
+  }
+  .title-bill h3 {
+    margin: 0;
+    margin-top: 5px
+  }
+  .title-bill .data-mang {
+    float: left;
+    width: 250px;
+    clear: both;
+    margin: 0;  
+    margin-top: -112px;
+    margin-left: 60px;
+    text-align: center;
+    height: 30px;
+    
+  }
+  .given {
+    border-top: 2px dashed #333;
+    padding: 20px
+  }
+  .given h4 {
+    margin: 0
+  }
+  
+  .given p {
+    clear: both;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding:0;
+    font-size: 18px;
+    margin: 0
+  }
+  .given .name {
+    width: 39%;
+  }
+  /* End New Bill */
+  
+  
+@media print {
+    .no-print {
+        display: none !important
+    }
+    .btn-print {
+        display: none 
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .prr {
+        display: block;
+    }
+    .print-only {
+        display: block
+    }
+    .data-bills td {
+        border: 1px solid #000
+    }
+    .offce {
+        color: #337ab7  !important
+    }
+    .print-red {
+        color: #dd0000  !important
+    }
+    .pinkcode {
+    }
+    .pink {
+        color: #f505a2 !important
+
+    }
+    .all-cho p {
+        margin-top: 150px !important
+    }
+}

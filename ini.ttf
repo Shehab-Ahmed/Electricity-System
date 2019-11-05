@@ -1,0 +1,20 @@
+<?php 
+
+    include "coonect.php";
+
+    include "data/option/fun.php";
+
+    $style1 = "data/wsc/bootstrap.min.css";
+    $style2 = "data/wsc/font-awesome.min.css";
+    $style3 = "data/wsc/font.css";
+    $style4 = "data/wsc/style.css";
+    $style5 = "data/wsc/ara.css";
+    $fontar = "data/wsc/fonts.fonts";
+    include "data/option/optiontop.php";
+
+    
+
+    if ( !isset($navbar) ){
+        include "data/option/napkl.php";
+    }
+    
